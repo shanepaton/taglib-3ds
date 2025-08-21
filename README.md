@@ -9,7 +9,7 @@ cmake -DCMAKE_TOOLCHAIN_FILE=../3ds.toolchain.cmake ..
 
 cmake --build .
 ```
-Copy the output from ```build-3ds``` into your DevkitPro libraries folder.
+Copy the output from ```install-3ds``` into your DevkitPro libraries folder.
 
 https://taglib.org/
 
