@@ -8,6 +8,8 @@ cd build-3ds
 cmake -DCMAKE_TOOLCHAIN_FILE=../3ds.toolchain.cmake ..
 
 cmake --build .
+
+cmake --install .
 ```
 Copy the output from ```install-3ds``` into your DevkitPro libraries folder.
 
