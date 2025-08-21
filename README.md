@@ -1,8 +1,15 @@
-# TagLib
+# TagLib-3DS - TagLib for the Nintendo 3ds
 
-[![Build Status](../../actions/workflows/build.yml/badge.svg)](../../actions)
+#### Build Instructions
 
-### TagLib Audio Metadata Library
+```bash
+mkdir build-3ds
+cd build-3ds
+cmake -DCMAKE_TOOLCHAIN_FILE=../3ds.toolchain.cmake ..
+
+cmake --build .
+```
+Copy the output from ```build-3ds``` into your DevkitPro libraries folder.
 
 https://taglib.org/
 
